@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scentuary 香氛品牌</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans TC', sans-serif;
+      background-color: #fffaf7;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: #f8e8e0;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      background-color: #f4d6cc;
+      padding: 1rem 0;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 960px;
+      margin: auto;
+    }
+
+    section h2 {
+      color: #9e5e5e;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 2rem;
+    }
+
+    .product-card {
+      background-color: #ffffff;
+      padding: 1rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      border-radius: 0.5rem;
+    }
+
+    footer {
+      background-color: #f8e8e0;
+      padding: 2rem;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #666;
+    }
+
+    .btn {
+      background-color: #d1a39a;
+      color: white;
+      padding: 0.5rem 1.5rem;
+      border: none;
+      border-radius: 2rem;
+      cursor: pointer;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+    }
+
+    .btn:hover {
+      background-color: #b47e77;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Scentuary 香氛療癒之旅</h1>
+    <p>Healing Fragrance for Your Everyday Sanctuary</p>
+  </header>
+
+  <nav>
+    <a href="#story">品牌故事</a>
+    <a href="#products">商品介紹</a>
+    <a href="#contact">聯絡我們</a>
+  </nav>
+
+  <section id="story">
+    <h2>品牌故事</h2>
+    <p>
+      Scentuary 是一段從氣味開始的療癒旅程，
+      我們相信，每一滴香氣都能觸動內心柔軟的角落，
+      為你建構一個放鬆與自我對話的專屬空間。
+    </p>
+  </section>
+
+  <section id="products">
+    <h2>人氣商品</h2>
+    <div class="product-grid">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200.png?text=Candle" alt="香氛蠟燭">
+        <h3>靜謐森林香氛蠟燭</h3>
+        <p>療癒木質調，讓心靈沉澱於自然。</p>
+        <a class="btn" href="#">查看更多</a>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/300x200.png?text=Diffuser" alt="擴香瓶">
+        <h3>晨光柑橘擴香瓶</h3>
+        <p>清新果香，點亮每一天的好心情。</p>
+        <a class="btn" href="#">查看更多</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>聯絡我們</h2>
+    <p>加入我們的 LINE 官方帳號，獲得第一手新品資訊與專屬優惠。</p>
+    <a class="btn" href="https://line.me/">加入LINE好友</a>
+  </section>
+
+  <footer>
+    &copy; 2025 Scentuary 香氛品牌. All rights reserved.
+  </footer>
+</body>
+</html>
